@@ -1,7 +1,7 @@
 provider "aws" {
 	region = "ap-southeast-1"
 }
-resource "aws_instance" "simpleec2" {
+resource "aws_instance" "test1" {
   ami           = "ami-06ecd61e4bded3bfe"
   instance_type = "t2.micro"
 
